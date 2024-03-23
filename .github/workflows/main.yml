@@ -31,7 +31,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: install yarn
-        run: npm install –global yarn
+        run: npm install -g yarn
 
       - name: install node modules
         run: yarn install
