@@ -1,0 +1,9 @@
+{
+  "watch": ["src"],
+  "ext": ".ts,.js",
+  "ignore": ["node_modules", "spec/**/*.spec.ts", "coverage", "build"],
+  "exec": "npx ts-node -r tsconfig-paths/register ./src/index.ts",
+  "env": {
+    "NODE_ENV": "dev"
+  }
+}
