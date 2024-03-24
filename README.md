@@ -14,6 +14,8 @@ A live demo of this application can be viewed [here](https://bible-go-api.rkepli
 ```bash
 git clone git@github.com:alfredayibonte/bible-node-api.git
 cd bible-node-api
+docker build -t bible-node-api .
+docker run --name bible-node-api -p 8084:4000 -d bible-node-api
 ```
 
 ### Related Projects
